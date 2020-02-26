@@ -1,4 +1,4 @@
-# fabric-mepoc
+# Hyperledger-Fabric-MEPOC
 
 Master of Engineering Proof-of-Concept Project
 
