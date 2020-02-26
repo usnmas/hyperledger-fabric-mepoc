@@ -1,9 +1,9 @@
-## fabric-mepoc
+# fabric-mepoc
 
 Master of Engineering Proof-of-Concept Project
 
 
-# Usage
+## Usage
 
 
 If needed, clone the [hyperledger/fabric-samples](https://github.com/hyperledger/fabric-samples) repository. This repository includes "bin" and "basic-network" folder. 
@@ -32,5 +32,5 @@ This will generate your cryptographic files (certificate and key) under the fold
 **4. Modify CA_KEYFILE in $POCHOME/basic-network/docker-compose.yml based on the above certificate**
 
 
-# Reference 
+## Reference 
 > Reference for chaincode development : [ChaincodeStubInterface](https://godoc.org/github.com/hyperledger/fabric-chaincode-go/shim#ChaincodeStubInterface)
