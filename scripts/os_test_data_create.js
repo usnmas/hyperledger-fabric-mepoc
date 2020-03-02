@@ -1,5 +1,6 @@
 /*
  * This Node JS file is for test data creation for PoC 
+ * This needs an argument for temperature data
  * OUTPUT : "SensorID","ActuatorID","TimeStamp (Millisecond)","Temperature","Hash Value"
  */
 
@@ -10,11 +11,16 @@ var ts = cTime.getTime();   // 1581933213658 (Millisecond)
 // Checksum value creation
 var sha256 = require("js-sha256");
 
+// Adapt temperature as an input parameter for actuator enabling & disabling
+process.argv.forEach((val, index) => {});
+
 var sid = "s001";
 var aid = "a001";
-var tem = "35";
+//var tem = "35";
+var tem = process.argv[2];
 var dat = sid + aid + ts + tem;
 var has = sha256(dat);
 var tsS = String(ts);
 var msgArr = [sid, aid, tsS, tem, has];
+
 console.log(JSON.stringify(msgArr));
