@@ -4,7 +4,7 @@
 peer chaincode install -n mycc -v 1.0 -p "/opt/gopath/src/github.com/newcc" -l "node"
 
 
-**chaincode instantiate (Node.js)**
+**chaincode instantiate**
 
 
 peer chaincode instantiate -o orderer.example.com:7050 -C mychannel -n mycc -l "node" -v 1.0 -c '{"Args":[]}'
