@@ -2,6 +2,7 @@
 
 
 root@c0bddbf3a304:/opt/gopath/src/github.com/newcc# peer chaincode install -p github.com/newcc -n mycc -v 1.0
+root@f2821d08e3da:/opt/gopath/src/github.com/chaincode/newcc# peer chaincode install -p github.com/chaincode/newcc -n mycc -v 1.0
 
 
 
