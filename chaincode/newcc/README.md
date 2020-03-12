@@ -1,4 +1,7 @@
+# Chaincode for PoC
+
 - For the PoC (Proof-of-concept) project, GO chaincode is used. 
 
 
-- For reference, Node.js chaincode sample exist in this folder. To use Node.js chaincode, relevant packages should be installed in the first place. 
+- chaincode.go uses type struct whereas chaincode2.go does not. Instead, chaincode2.go uses 2 different types of key-value documents in DB, so that type struct is no longer applied. 
+
