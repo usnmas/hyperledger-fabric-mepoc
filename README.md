@@ -34,7 +34,7 @@ This will generate your cryptographic files (certificate and key) under the fold
 
 ## Physical Architecture
 
-![Physical Architecture for PoC]()
+![Physical Architecture for PoC](https://github.com/usnmas/hyperledger-fabric-mepoc/blob/master/Fig_PoC_Arch2.png)
 
 
 ## Reference 
