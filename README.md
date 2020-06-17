@@ -32,5 +32,10 @@ This will generate your cryptographic files (certificate and key) under the fold
 **4. Modify CA_KEYFILE in $POCHOME/basic-network/docker-compose.yml based on the above certificate**
 
 
+## Physical Architecture
+
+![Physical Architecture for PoC]()
+
+
 ## Reference 
 > Reference for chaincode development : [ChaincodeStubInterface](https://godoc.org/github.com/hyperledger/fabric-chaincode-go/shim#ChaincodeStubInterface)
