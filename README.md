@@ -4,8 +4,7 @@ Master of Engineering Proof-of-Concept Project
 
 ## Scenario
 
-
-
+![Scenario for PoC : Workflow](https://github.com/usnmas/hyperledger-fabric-mepoc/blob/master/Fig_Tx_Concept.png)
 
 ## Usage
 
