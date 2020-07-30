@@ -7,7 +7,7 @@
 
 ![Scenario for PoC : Workflow](https://github.com/usnmas/hyperledger-fabric-mepoc/blob/master/Fig_Tx_Concept.png)
 
-## Usage
+## Deployment
 
 If needed, clone the [hyperledger/fabric-samples](https://github.com/hyperledger/fabric-samples) repository. This repository includes "bin" and "basic-network" folder. 
 
