@@ -1,6 +1,6 @@
-# Hyperledger-Fabric-MEPOC
+# Master of Engineering Project using Hyperledger Fabric
 
-- Master of Engineering Proof-of-Concept Project  
+- Proof-of-Concept (PoC) for Master of Engineering Project  
 - Title : Towards Blockchain Network Platform for IoT Data Integrity and Scalability  
 
 ## Scenario
